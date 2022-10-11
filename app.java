@@ -10,7 +10,24 @@
 		printOne();
 		printOne();
 		printTwo();
+
+		//create a file object for the current location
+		File devfile1=new File("deployment.java");
+		try{
+			//trying to create a file based on theobject
+			boolean value=file.createNewFile();
+			if(value){
+				System.out.println("The new file is created");
+			}
+			else
+			{
+				System.out.println("file already exists");
+	}
+
+	public static void printOne() {
+
 public static void printOne() {
+
 		System.out.println("Hello World");
 	}
 
