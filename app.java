@@ -10,6 +10,7 @@
 		printOne();
 		printOne();
 		printTwo();
+
 		//create a file object for the current location
 		File devfile1=new File("deployment.java");
 		try{
@@ -24,6 +25,9 @@
 	}
 
 	public static void printOne() {
+
+public static void printOne() {
+
 		System.out.println("Hello World");
 	}
 
